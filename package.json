@@ -9,6 +9,11 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "React Native Navigation",
+    "React Native Router",
+    "File Based Routing"
+  ],
   "scripts": {
     "build": "rm -rf dist/ && yarn build:esm && yarn build:cjs && yarn copy:generated-folder",
     "build:esm": "tsc --project tsconfig.frontend.json && tsc --project tsconfig.api.json",
